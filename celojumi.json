@@ -1,0 +1,14 @@
+{
+    "Celojumi": [
+        {
+            "Ilgums-Dienas": 6,
+            "Aktivitate": [
+                "muzejs",
+                "pludmale"
+            ],
+            "Nosaukums": "TEST-Nosaukums",
+            "Budget": 500,
+            "Valsts": "TEST-Valsts"
+        }
+    ]
+}
