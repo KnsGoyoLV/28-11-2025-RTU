@@ -5,6 +5,7 @@ import javax.swing.JOptionPane;
 public class main {
 
 	public static void Main(String[] args) {
-	
+        int number1, number2, sum;
+         
 	}
 }
