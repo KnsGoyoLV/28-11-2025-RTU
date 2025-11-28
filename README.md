@@ -18,7 +18,7 @@ Katram ceļojuma galamērķim ir šādi lauki:
 - `budzets` – budžets EUR (piem., `600`)
 - `aktivitates` – aktivitāšu saraksts (piem., `["muzejs", "pludmale"]`)
 
-
+## Kas vell ir ieplānots šajā projektā!
 - [] Noņemt esošu galamērķi
 - [] Meklēt galamērķi pēc: valsts vai konkrētas aktivitātes
 - []Atlasīt galamērķus pēc: budžeta robežas (piem., < 500) vai ceļošanas ilguma
