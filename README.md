@@ -19,13 +19,13 @@ Katram ceļojuma galamērķim ir šādi lauki:
 - `aktivitates` – aktivitāšu saraksts (piem., `["muzejs", "pludmale"]`)
 
 
-- [] Noņemt esošu galamērķi
-- [] Meklēt galamērķi pēc: valsts vai konkrētas aktivitātes
-- []Atlasīt galamērķus pēc: budžeta robežas (piem., < 500) vai ceļošanas ilguma
-- []Aprēķināt statistiku: kopējais galamērķu skaits, vidējais ceļošanas ilgums, sastopamā aktivitāte
-- [] Ievadīt datus (piedomāt pie ievades datu pārbaudēm)
-- [] Izvēlēties darbību no izvēlnes
-- [] Redzēt rezultātus skaidrā formā
+- [ ] Noņemt esošu galamērķi
+- [ ] Meklēt galamērķi pēc: valsts vai konkrētas aktivitātes
+- [ ]Atlasīt galamērķus pēc: budžeta robežas (piem., < 500) vai ceļošanas ilguma
+- [ ]Aprēķināt statistiku: kopējais galamērķu skaits, vidējais ceļošanas ilgums, sastopamā aktivitāte
+- [ ] Ievadīt datus (piedomāt pie ievades datu pārbaudēm)
+- [ ] Izvēlēties darbību no izvēlnes
+- [ ] Redzēt rezultātus skaidrā formā
 
 
 
