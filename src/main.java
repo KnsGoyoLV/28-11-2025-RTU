@@ -38,7 +38,7 @@ public class main {
                     int Budget = scan.nextInt();
                     scan.nextLine();
 
-                    System.out.print("Aktivitātes (ar komatiem): ");
+                    System.out.print("Aktivitātes (Atdala ar komatiem): ");
                     String Aktiviitate = scan.nextLine();
                     List<String> Active = Arrays.asList(Aktiviitate.split(","));
 
