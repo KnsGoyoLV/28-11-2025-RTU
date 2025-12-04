@@ -10,19 +10,44 @@ import org.json.simple.JSONArray;
 public class main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        CelojumaSaraksts saraksts = new CelojumaSaraksts();
         // Define variables
-        String Nosaukums, Valsts;
-        int Budget, Ilgums;
-        String[] Aktiviitate;
 
-        System.out.println("Ievadi pilsetu ");
-        Nosaukums = scan.next();
-        System.out.println("Ievadi valsti ");
-        Valsts = scan.next();
-        System.out.println("Ievadi ilgumu (dienas) ");
-        Ilgums = scan.nextInt();
-        System.out.println("Ievadi budzetu ");
-        Budget = scan.nextInt();
+        while (true) {
+            System.out.println("1  Pievienot galamērķi");
+            System.out.println("2  Noņemt galamērķi");
+            System.out.println("3  Meklēt pēc valsts");
+            System.out.println("4  Meklēt pēc aktivitātes");
+            System.out.println("5  Atlasīt pēc budžeta");
+            System.out.println("6  Atlasīt pēc ilguma");
+            System.out.println("7  Saglabāt JSON");
+            System.out.println("0  Iziet");
+
+            int izvele = scan.nextInt();
+            scan.nextLine();
+
+            switch (izvele) {
+                case 1: {
+                    System.out.print("Nosaukums: ");
+                    String Nosaukums = scan.nextLine();
+                    System.out.print("Valsts: ");
+                    String Valsts = scan.nextLine();
+                    System.out.print("Ilgums (dienas): ");
+                    int Ilgums = scan.nextInt();
+                    System.out.print("Budžets: ");
+                    int Budget = scan.nextInt();
+                    scan.nextLine();
+
+                    System.out.print("Aktivitātes (ar komatiem): ");
+                    String Aktiviitate = scan.nextLine();
+                    List<String> Active = Arrays.asList(Aktiviitate.split(","));
+
+                    saraksts.pievienot(new Celojums(Nosaukums, Valsts, Ilgums, Budget, Active));
+                }
+                    break;
+
+            }
+        }
         // System.out.println("Ievadi aktivitates ");
         // Create JSON structure
         JSONObject root = new JSONObject();
