@@ -53,22 +53,22 @@ public class main {
                 case 3:
                     System.out.print("Valsts: ");
                     String Valsts = scan.nextLine();
-                    saraksts.nonemt(Nosaukums);
+                    System.out.println(saraksts.mekletPecValsts(Valsts));
                     break;
                 case 4:
                     System.out.print("Aktivitāte: ");
                     String Aktiviitate = scan.nextLine();
-                    saraksts.nonemt(Nosaukums);
+                    System.out.println(saraksts.mekletPecAktiviitate(Aktiviitate));
                     break;
                 case 5:
                     System.out.print("Maksimalais budžetu daudzums: ");
                     int Budget = scan.nextInt();
-                    saraksts.nonemt(Nosaukums);
+                    System.out.println(saraksts.atlasitBudzetu(Budget));
                     break;
                 case 6:
                     System.out.print("Maksimalais ilgums dienas: ");
-                    int Ilgums = sc.nextInt();
-                    saraksts.nonemt(Nosaukums);
+                    int Ilgums = scan.nextInt();
+                    System.out.println(saraksts.atlasitIlgumu(Ilgums));
                     break;
                 case 7:
                     System.out.print("Maksimalais ilgums dienas: ");
