@@ -45,7 +45,39 @@ public class main {
                     saraksts.pievienot(new Celojums(Nosaukums, Valsts, Ilgums, Budget, Active));
                 }
                     break;
-
+                case 2:
+                    System.out.print("Nosaukums dzēšanai: ");
+                    String Nosaukums = scan.nextLine();
+                    saraksts.nonemt(Nosaukums);
+                    break;
+                case 3:
+                    System.out.print("Valsts: ");
+                    String Valsts = scan.nextLine();
+                    saraksts.nonemt(Nosaukums);
+                    break;
+                case 4:
+                    System.out.print("Aktivitāte: ");
+                    String Aktiviitate = scan.nextLine();
+                    saraksts.nonemt(Nosaukums);
+                    break;
+                case 5:
+                    System.out.print("Maksimalais budžetu daudzums: ");
+                    int Budget = scan.nextInt();
+                    saraksts.nonemt(Nosaukums);
+                    break;
+                case 6:
+                    System.out.print("Maksimalais ilgums dienas: ");
+                    int Ilgums = sc.nextInt();
+                    saraksts.nonemt(Nosaukums);
+                    break;
+                case 7:
+                    System.out.print("Maksimalais ilgums dienas: ");
+                    int Ilgums = sc.nextInt();
+                    saraksts.nonemt(Nosaukums);
+                    break;
+                case 0:
+                    System.exit(0);
+                    break;
             }
         }
         // System.out.println("Ievadi aktivitates ");
